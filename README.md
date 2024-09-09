@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# React Quiz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **React Quiz App**! This application is a fun and interactive quiz platform built using **React** with a focus on state management via the `useReducer` hook. The app features a pointing system, a high score tracker, and a timer that automatically stops the quiz when the time runs out. Additionally, the app utilizes a fake API with `json-server` for handling quiz data.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Setting Up Fake API with json-server](#setting-up-fake-api-with-json-server)
+- [Usage](#usage)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **useReducer Hook**: Utilizes the `useReducer` hook for managing the quiz state effectively.
+- **Pointing System**: Earn points for each correct answer and see your total score at the end.
+- **High Score Feature**: Tracks and displays the highest score achieved.
+- **Timer Functionality**: A countdown timer that stops the quiz automatically when it reaches zero.
+- **Fake API with `json-server`**: Uses a fake API to simulate fetching quiz questions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+Follow these instructions to set up and run the project locally.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- **Node.js**: Ensure that you have Node.js installed on your machine. You can download it from [Node.js](https://nodejs.org/).
+- **npm**: Node Package Manager comes with Node.js; make sure you have it installed.
+- **json-server**: A fake REST API server to mock backend responses.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the Repository**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   Open your terminal or command prompt and run the following command to clone the repository:
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/yourusername/react-quiz.git
+2. **Navigate to the Project Directory**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   Change into the project directory:
+    ```bash
+   cd react-quiz
+    
+3. **Install Dependencies**
+   
+   Install the necessary dependencies using npm:
+   ```bash
+   npm install
+   
+### Setting Up Fake API with json-server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Install json-server as a Development Dependency**
+   
+   Install json-server locally as a development dependency:
+   ```bash
+   npm install json-server --save-dev
+2. **Start the json-server**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   Run the following command to start `json-server`:
+   ```bash
+   npm run server
+  The server will be accessible at http://localhost:8000.
+   
+### Usage
+* Run the following command to start the development server:
+  ```bash
+  npm start
+ **Open your browser** and navigate to http://localhost:3000.
