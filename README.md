@@ -68,3 +68,6 @@ Follow these instructions to set up and run the project locally.
   ```bash
   npm start
  **Open your browser** and navigate to http://localhost:3000.
+
+ ## Acknowledgements
+This app was developed as part of the [Udemy course](https://www.udemy.com/course/the-ultimate-react-course/) by Jonas Schmedtmann. Special thanks to Jonas for being an excellent instructor throughout the course.
