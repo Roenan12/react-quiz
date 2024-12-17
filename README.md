@@ -36,7 +36,7 @@ Follow these instructions to set up and run the project locally.
    Open your terminal or command prompt and run the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/react-quiz.git
+   git clone https://github.com/Roenan12/react-quiz.git
 2. **Navigate to the Project Directory**
 
    Change into the project directory:
